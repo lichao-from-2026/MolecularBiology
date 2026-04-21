@@ -1,0 +1,51 @@
+# 依赖目录
+node_modules/
+
+# RsPress 构建输出
+.rspress/
+dist/
+
+# 临时文件
+.temp/
+.tmp/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 操作系统产生的文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 环境变量文件
+.env
+.env.local
+.env.development
+.env.production
+
+# 缓存目录
+.cache/
+.parcel-cache/
+
+# 调试输出
+npm-debug.log*
+
+# TypeScript 编译输出
+*.tsbuildinfo
+
+# 测试覆盖率输出
+coverage/
+
+# 临时构建目录
+tmp/
+temp/

@@ -1,0 +1,218 @@
+import { DocStatusTable } from '@theme/components/DocStatusTable';
+
+# 一、分子生物学知识库
+
+## 1. 项目简介
+
+本项目是一个基于 RsPress 构建的分子生物学知识库，旨在为学习者提供从零开始的分子生物学学习路径和系统化的知识整理方案。
+
+:::tip
+本文档是知识库的**大纲与学习计划**，使用可交互的表格记录文档生成进度。点击状态即可切换：⬜ 待完成 → 🔄 进行中 → ✅ 已完成。
+:::
+
+## 2. 知识库大纲 & 学习计划
+
+### 2.1 第一阶段：基础知识
+
+<DocStatusTable
+  title="基础知识"
+  storageKey="kb-basics"
+  items={[
+    {
+      id: "basics-1",
+      title: "分子生物学入门",
+      description: "基本概念、发展历史、核心技术",
+      details: ["分子生物学定义与研究范畴", "发展历史：Watson-Crick 模型到 CRISPR", "核心技术：PCR、测序、克隆"],
+      filePath: "/1. 基础知识/1.1 分子生物学/1. 分子生物学入门.mdx",
+      status: "pending"
+    },
+    {
+      id: "basics-2",
+      title: "细胞生物学基础",
+      description: "细胞结构、细胞器功能、细胞周期",
+      details: ["原核细胞与真核细胞对比", "主要细胞器功能", "细胞周期调控机制"],
+      filePath: "/1. 基础知识/1.2 细胞生物学/1. 细胞生物学基础.mdx",
+      status: "pending"
+    }
+  ]}
+/>
+
+---
+
+### 2.2 第二阶段：分子基础
+
+#### 2.2.1 DNA 与 RNA
+
+<DocStatusTable
+  title="DNA 与 RNA"
+  storageKey="kb-dna-rna"
+  items={[
+    { id: "dna-1", title: "DNA 结构与功能", description: "双螺旋结构、复制机制、修复系统", filePath: "/2. DNA与RNA/2.1 DNA/1. DNA结构与功能.mdx", status: "pending" },
+    { id: "dna-2", title: "RNA 结构与功能", description: "mRNA、tRNA、rRNA 的结构与作用", filePath: "/2. DNA与RNA/2.2 RNA/1. RNA结构与功能.mdx", status: "pending" },
+    { id: "dna-3", title: "基因结构", description: "启动子、外显子、内含子、调控序列", filePath: "/2. DNA与RNA/3. 基因结构.mdx", status: "pending" }
+  ]}
+/>
+
+:::warning
+DNA 与 RNA 的对比说明需要使用表格进行对比整理。
+:::
+
+#### 2.2.2 遗传信息流
+
+<DocStatusTable
+  title="遗传信息流"
+  storageKey="kb-genetic-info"
+  items={[
+    { id: "genetic-1", title: "中心法则", description: "遗传信息传递的基本规律", status: "pending" },
+    { id: "genetic-2", title: "遗传变异", description: "突变、重组、修复机制", status: "pending" }
+  ]}
+/>
+
+---
+
+### 2.3 第三阶段：基因表达
+
+<DocStatusTable
+  title="基因表达"
+  storageKey="kb-gene-expression"
+  items={[
+    { id: "expr-1", title: "转录机制", description: "RNA 聚合酶、转录因子、转录后加工", filePath: "/3. 转录与翻译/1. 转录机制.mdx", status: "pending" },
+    { id: "expr-2", title: "翻译机制", description: "核糖体、密码子、蛋白质合成", filePath: "/3. 转录与翻译/2. 翻译机制.mdx", status: "pending" },
+    { id: "expr-3", title: "基因表达调控", description: "表观遗传调控、转录调控、翻译调控", filePath: "/3. 转录与翻译/3. 基因表达调控.mdx", status: "pending" }
+  ]}
+/>
+
+---
+
+### 2.4 第四阶段：核心技术
+
+#### 2.4.1 PCR 技术
+
+<DocStatusTable
+  title="PCR 技术"
+  storageKey="kb-pcr"
+  items={[
+    { id: "pcr-1", title: "PCR 原理", description: "变性、退火、延伸原理", filePath: "/4. PCR技术/1. PCR原理.mdx", status: "pending" },
+    { id: "pcr-2", title: "qPCR 技术", description: "定量 PCR、荧光检测", filePath: "/4. PCR技术/2. qPCR技术.mdx", status: "pending" },
+    { id: "pcr-3", title: "PCR 应用", description: "基因检测、病原体诊断", filePath: "/4. PCR技术/3. PCR应用.mdx", status: "pending" }
+  ]}
+/>
+
+#### 2.4.2 分子克隆
+
+<DocStatusTable
+  title="分子克隆"
+  storageKey="kb-cloning"
+  items={[
+    { id: "clone-1", title: "载体构建", description: "质粒、表达载体设计", filePath: "/5. 分子克隆/1. 载体构建.mdx", status: "pending" },
+    { id: "clone-2", title: "酶切实验", description: "限制性内切酶、酶切反应条件", filePath: "/5. 分子克隆/2. 酶切实验.mdx", status: "pending" },
+    { id: "clone-3", title: "连接反应", description: "DNA 连接酶、连接反应体系", filePath: "/5. 分子克隆/3. 连接反应.mdx", status: "pending" }
+  ]}
+/>
+
+#### 2.4.3 测序技术
+
+<DocStatusTable
+  title="测序技术"
+  storageKey="kb-sequencing"
+  items={[
+    { id: "seq-1", title: "Sanger 测序", description: "双脱氧链终止法", filePath: "/6. 测序技术/1. Sanger测序.mdx", status: "pending" },
+    { id: "seq-2", title: "NGS 技术", description: "二代测序原理与平台", filePath: "/6. 测序技术/2. NGS技术.mdx", status: "pending" },
+    { id: "seq-3", title: "数据分析", description: "测序数据处理与解读", filePath: "/6. 测序技术/3. 数据分析.mdx", status: "pending" }
+  ]}
+/>
+
+#### 2.4.4 基因编辑
+
+<DocStatusTable
+  title="基因编辑"
+  storageKey="kb-gene-editing"
+  items={[
+    { id: "edit-1", title: "CRISPR-Cas9", description: "CRISPR 系统、sgRNA 设计", filePath: "/7. 基因编辑/1. CRISPR-Cas9.mdx", status: "pending" },
+    { id: "edit-2", title: "TALEN", description: "锌指核酸酶技术", filePath: "/7. 基因编辑/2. TALEN.mdx", status: "pending" },
+    { id: "edit-3", title: "ZFN", description: "转录激活因子样效应物核酸酶", filePath: "/7. 基因编辑/3. ZFN.mdx", status: "pending" }
+  ]}
+/>
+
+---
+
+### 2.5 第五阶段：实验方法
+
+<DocStatusTable
+  title="实验方法"
+  storageKey="kb-experiments"
+  items={[
+    { id: "exp-1", title: "核酸提取", description: "DNA/RNA 提取方法与质量检测", status: "pending" },
+    { id: "exp-2", title: "凝胶电泳", description: "琼脂糖凝胶电泳原理与操作", status: "pending" },
+    { id: "exp-3", title: "印迹技术", description: "Southern blot、Northern blot、Western blot", status: "pending" },
+    { id: "exp-4", title: "细胞培养", description: "原代培养、传代培养、细胞系", status: "pending" }
+  ]}
+/>
+
+---
+
+## 3. 文档生成规范
+
+根据 AGENTS.md 规定，每篇文档必须包含以下五个部分：
+
+1. **定义与核心概念**
+2. **分子机制/原理**
+3. **实验方法与流程**
+4. **应用场景**
+5. **注意事项与常见误区**
+
+:::tip
+生成文档时，请先检查对应文件是否已存在，如已存在则进行更新，如不存在则创建新文件。
+:::
+
+## 4. 组件使用说明
+
+本知识库使用了自定义的交互式状态表格组件 `<DocStatusTable />`，提供以下功能：
+
+| 功能 | 说明 |
+|------|------|
+| **点击切换状态** | 点击任意行的状态Badge即可切换状态 |
+| **展开详情面板** | 点击 ▶ 按钮展开详细列表 |
+| **进度条显示** | 自动计算并显示完成百分比 |
+| **本地存储** | 状态会保存到浏览器 localStorage |
+| **统计显示** | 显示待完成/进行中/已完成的数量 |
+
+### 0.1 组件参数
+
+```typescript
+interface DocStatusItem {
+  id: string;
+  title: string;
+  description?: string;       // 简洁描述（折叠时显示）
+  details?: string | string[]; // 详细内容（展开时显示）
+  filePath?: string;
+  status: 'pending' | 'in-progress' | 'completed';
+}
+
+interface DocStatusTableProps {
+  items: DocStatusItem[];    // 文档列表
+  title?: string;            // 表格标题
+  storageKey?: string;       // localStorage 键名
+}
+```
+
+### 0.2 状态说明
+
+| 状态 | 符号 | 颜色 | 含义 |
+|------|------|------|------|
+| 待完成 | ○ | 灰色 | 尚未开始生成文档 |
+| 进行中 | ◐ | 橙色 | 正在生成或修改文档 |
+| 已完成 | ● | 绿色 | 文档已生成并定稿 |
+
+## 5. 贡献指南
+
+欢迎对知识库进行补充和完善：
+
+1. 遵循 MDX 格式规范
+2. 保持术语的一致性
+3. 提供权威的参考资料
+4. 确保实验方法的准确性
+
+:::tip
+让我们一起构建一个全面、准确、易于理解的分子生物学知识库！
+:::

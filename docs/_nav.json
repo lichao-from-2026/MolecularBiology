@@ -1,0 +1,141 @@
+[
+  {
+    "text": "首页",
+    "link": "/",
+    "activeMatch": "/"
+  },
+  {
+    "text": "1. 基础知识",
+    "link": "/1. 基础知识/1. 分子生物学入门",
+    "activeMatch": "/1. 基础知识/",
+    "items": [
+      {
+        "text": "分子生物学入门",
+        "link": "/1. 基础知识/1. 分子生物学入门"
+      },
+      {
+        "text": "细胞生物学基础",
+        "link": "/1. 基础知识/2. 细胞生物学基础"
+      }
+    ]
+  },
+  {
+    "text": "2. DNA与RNA",
+    "link": "/2. DNA与RNA/1. DNA结构与功能",
+    "activeMatch": "/2. DNA与RNA/",
+    "items": [
+      {
+        "text": "DNA 结构与功能",
+        "link": "/2. DNA与RNA/1. DNA结构与功能"
+      },
+      {
+        "text": "RNA 结构与功能",
+        "link": "/2. DNA与RNA/2. RNA结构与功能"
+      },
+      {
+        "text": "基因结构",
+        "link": "/2. DNA与RNA/3. 基因结构"
+      }
+    ]
+  },
+  {
+    "text": "3. 转录与翻译",
+    "link": "/3. 转录与翻译/1. 转录机制",
+    "activeMatch": "/3. 转录与翻译/",
+    "items": [
+      {
+        "text": "转录机制",
+        "link": "/3. 转录与翻译/1. 转录机制"
+      },
+      {
+        "text": "翻译机制",
+        "link": "/3. 转录与翻译/2. 翻译机制"
+      },
+      {
+        "text": "基因表达调控",
+        "link": "/3. 转录与翻译/3. 基因表达调控"
+      }
+    ]
+  },
+  {
+    "text": "4. PCR技术",
+    "link": "/4. PCR技术/1. PCR原理",
+    "activeMatch": "/4. PCR技术/",
+    "items": [
+      {
+        "text": "PCR 原理",
+        "link": "/4. PCR技术/1. PCR原理"
+      },
+      {
+        "text": "qPCR 技术",
+        "link": "/4. PCR技术/2. qPCR技术"
+      },
+      {
+        "text": "PCR 应用",
+        "link": "/4. PCR技术/3. PCR应用"
+      }
+    ]
+  },
+  {
+    "text": "5. 分子克隆",
+    "link": "/5. 分子克隆/1. 载体构建",
+    "activeMatch": "/5. 分子克隆/",
+    "items": [
+      {
+        "text": "载体构建",
+        "link": "/5. 分子克隆/1. 载体构建"
+      },
+      {
+        "text": "酶切实验",
+        "link": "/5. 分子克隆/2. 酶切实验"
+      },
+      {
+        "text": "连接反应",
+        "link": "/5. 分子克隆/3. 连接反应"
+      }
+    ]
+  },
+  {
+    "text": "6. 测序技术",
+    "link": "/6. 测序技术/1. Sanger测序",
+    "activeMatch": "/6. 测序技术/",
+    "items": [
+      {
+        "text": "Sanger 测序",
+        "link": "/6. 测序技术/1. Sanger测序"
+      },
+      {
+        "text": "NGS 技术",
+        "link": "/6. 测序技术/2. NGS技术"
+      },
+      {
+        "text": "数据分析",
+        "link": "/6. 测序技术/3. 数据分析"
+      }
+    ]
+  },
+  {
+    "text": "7. 基因编辑",
+    "link": "/7. 基因编辑/1. CRISPR-Cas9",
+    "activeMatch": "/7. 基因编辑/",
+    "items": [
+      {
+        "text": "CRISPR-Cas9",
+        "link": "/7. 基因编辑/1. CRISPR-Cas9"
+      },
+      {
+        "text": "TALEN",
+        "link": "/7. 基因编辑/2. TALEN"
+      },
+      {
+        "text": "ZFN",
+        "link": "/7. 基因编辑/3. ZFN"
+      }
+    ]
+  },
+  {
+    "text": "8. 实验方法",
+    "link": "/8. 实验方法/",
+    "activeMatch": "/8. 实验方法/"
+  }
+]
