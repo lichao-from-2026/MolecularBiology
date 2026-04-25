@@ -1,3 +1,11 @@
+---
+title: RNA结构与功能
+description: RNA的分子结构、类型和生物学功能
+author: 分子生物学专家
+date: 2026-04-25
+category: 遗传信息
+---
+
 # RNA 结构与功能
 
 ## 1. 定义与核心概念

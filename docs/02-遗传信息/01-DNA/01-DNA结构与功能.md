@@ -1,3 +1,11 @@
+---
+title: DNA结构与功能
+description: DNA的分子结构、复制机制、修复系统和生物学功能
+author: 分子生物学专家
+date: 2026-04-25
+category: 遗传信息
+---
+
 # DNA 结构与功能
 
 ## 1. 定义与核心概念

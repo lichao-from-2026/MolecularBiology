@@ -1,7 +1,7 @@
 ---
-title: DNA修复机制
-description: 细胞对DNA损伤的修复机制
-author: moleculer
+title: DNA损伤与修复
+description: DNA损伤的类型、修复机制和生物学意义
+author: 分子生物学专家
 date: 2026-04-25
 category: 遗传信息
 ---

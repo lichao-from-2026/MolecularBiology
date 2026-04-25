@@ -1,3 +1,11 @@
+---
+title: 非编码RNA
+description: 非编码RNA的类型、功能和生物学意义
+author: 分子生物学专家
+date: 2026-04-25
+category: 遗传信息
+---
+
 # 非编码 RNA
 
 ## 1. 定义与核心概念

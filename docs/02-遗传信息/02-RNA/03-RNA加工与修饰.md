@@ -1,7 +1,7 @@
 ---
 title: RNA加工与修饰
-description: RNA转录后加工和各种修饰机制
-author: moleculer
+description: RNA的转录后加工、修饰和成熟过程
+author: 分子生物学专家
 date: 2026-04-25
 category: 遗传信息
 ---
