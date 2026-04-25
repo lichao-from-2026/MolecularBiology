@@ -1,5 +1,5 @@
 import './index.css';
 
 export * from '@rspress/core/theme-original';
-export { StatusSelector } from './components/StatusSelector';
-export { DocStatusTable } from './components/DocStatusTable';
+export { StatusSelector } from '../src/components/StatusSelector';
+export { DocStatusTable } from '../src/components/DocStatusTable';

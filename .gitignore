@@ -4,6 +4,7 @@ node_modules/
 # RsPress 构建输出
 .rspress/
 dist/
+doc_build/
 
 # 临时文件
 .temp/
